@@ -11,8 +11,13 @@
       <h3>Super Calculator</h3>
       <form class="form-inline">
         <input ng-model="calc.first" type="text" class="input-small"/>
-        <select ng-model="calc.operator" class="span1"
-                ng-options="value for (key, value) in calc.operators">
+        <select ng-model="calc.operator" class="span1">
+          <option value="0">+</option>
+          <option value="1">-</option>
+          <option value="2">*</option>
+          <option value="3">/</option>
+          <option value="4">%</option>
+
         </select>
         <input ng-model="calc.second" type="text" class="input-small"/>
         <button ng-click="calc.doAddition()" id="gobutton" class="btn">Go!</button>
