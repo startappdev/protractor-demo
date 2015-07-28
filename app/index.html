@@ -2,7 +2,10 @@
 <html ng-app="calculator">
 <head>
   <script src="./angular.min.js"></script>
-  <script src="./calc.js"></script>
+  <script>
+    angular.module('calculator', []);
+  </script>
+  <script src="./calc.arnoldc.js"></script>
   <link href="./bootstrap.css" rel="stylesheet">
 </head>
 <body class="ng-cloak">
@@ -10,7 +13,7 @@
     <div>
       <h3>Super Calculator</h3>
       <form class="form-inline">
-        <input ng-model="calc.first" type="text" class="input-small"/>
+        <input ng-model="calc.first" type="number" class="input-small"/>
         <select ng-model="calc.operator" class="span1">
           <option value="0">+</option>
           <option value="1">-</option>
@@ -19,30 +22,12 @@
           <option value="4">%</option>
 
         </select>
-        <input ng-model="calc.second" type="text" class="input-small"/>
+        <input ng-model="calc.second" type="number" class="input-small"/>
         <button ng-click="calc.doAddition()" id="gobutton" class="btn">Go!</button>
         <h2>{{calc.latest}}</h2>
       </form>
     </div>
-    <h4>History</h4>
-    <table class="table">
-      <thead><tr>
-        <th>Time</th>
-        <th>Expression</th>
-        <th>Result</th>
-      </tr></thead>
-      <tr ng-repeat="result in calc.memory">
-        <td>
-          {{result.timestamp | date:'mediumTime'}}
-        </td>
-        <td>
-          <span>{{result.first}}</span>
-          <span>{{result.operator}}</span>
-          <span>{{result.second}}</span>
-        </td>
-        <td>{{result.value}}</td>
-      </tr>
-    </table>
+    <img src="giphy.gif" ng-show="calc.visible == 1" alt="TURBO MAN">
   </div>
 </body>
 </html>

@@ -1,0 +1,114 @@
+IT'S SHOWTIME
+  GET YOUR ASS TO MARS calculator
+    DO IT NOW angular.module "calculator"
+
+  DO IT NOW calculator.controller "CalcCtrl" CalcCtrl
+YOU HAVE BEEN TERMINATED
+
+LISTEN TO ME VERY CAREFULLY doAddition
+  TALK TO THE HAND "running calculator"
+
+  HEY CHRISTMAS TREE calc
+    YOU SET US UP this
+
+  HEY CHRISTMAS TREE visible
+    YOU SET US UP 1
+
+  GET TO THE CHOPPER isPlus
+    HERE IS MY INVITATION calc.operator
+    YOU ARE NOT YOU YOU ARE ME "0"
+  ENOUGH TALK
+  GET TO THE CHOPPER isMinus
+    HERE IS MY INVITATION calc.operator
+    YOU ARE NOT YOU YOU ARE ME "1"
+  ENOUGH TALK
+  GET TO THE CHOPPER isMultiple
+    HERE IS MY INVITATION calc.operator
+    YOU ARE NOT YOU YOU ARE ME "2"
+  ENOUGH TALK
+  GET TO THE CHOPPER isDivide
+    HERE IS MY INVITATION calc.operator
+    YOU ARE NOT YOU YOU ARE ME "3"
+  ENOUGH TALK
+  GET TO THE CHOPPER isModulo
+    HERE IS MY INVITATION calc.operator
+    YOU ARE NOT YOU YOU ARE ME "4"
+  ENOUGH TALK
+
+  BECAUSE I'M GOING TO SAY PLEASE isPlus
+    GET TO THE CHOPPER total
+      HERE IS MY INVITATION calc.first
+      GET UP calc.second
+    ENOUGH TALK
+  YOU HAVE NO RESPECT FOR LOGIC
+
+  BECAUSE I'M GOING TO SAY PLEASE isMinus
+    GET TO THE CHOPPER total
+      HERE IS MY INVITATION calc.first
+      GET DOWN calc.second
+    ENOUGH TALK
+  YOU HAVE NO RESPECT FOR LOGIC
+
+  BECAUSE I'M GOING TO SAY PLEASE isMultiple
+    GET TO THE CHOPPER total
+      HERE IS MY INVITATION calc.first
+      YOU'RE FIRED calc.second
+    ENOUGH TALK
+  YOU HAVE NO RESPECT FOR LOGIC
+
+  BECAUSE I'M GOING TO SAY PLEASE isDivide
+    GET TO THE CHOPPER total
+      HERE IS MY INVITATION calc.first
+      HE HAD TO SPLIT calc.second
+    ENOUGH TALK
+  YOU HAVE NO RESPECT FOR LOGIC
+
+  BECAUSE I'M GOING TO SAY PLEASE isModulo
+    GET YOUR ASS TO MARS total
+      DO IT NOW modulo calc.first calc.second
+  YOU HAVE NO RESPECT FOR LOGIC
+  
+  DO IT NOW eval "calc.latest = total"
+  DO IT NOW eval "calc.visible = visible"
+
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY CalcCtrl
+  HEY CHRISTMAS TREE calc
+    YOU SET US UP this
+
+  HEY CHRISTMAS TREE latest
+    YOU SET US UP 0
+
+  HEY CHRISTMAS TREE operator
+    YOU SET US UP "0"
+
+  DO IT NOW eval "calc.latest = latest"
+  DO IT NOW eval "calc.operator = operator"
+  DO IT NOW eval "calc.doAddition = doAddition"
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY modulo
+I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE dividend
+I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE divisor
+GIVE THESE PEOPLE AIR
+HEY CHRISTMAS TREE quotient
+YOU SET US UP 0
+HEY CHRISTMAS TREE remainder
+YOU SET US UP 0
+HEY CHRISTMAS TREE product
+YOU SET US UP 0
+GET TO THE CHOPPER quotient
+HERE IS MY INVITATION dividend
+HE HAD TO SPLIT divisor
+ENOUGH TALK
+GET TO THE CHOPPER product
+HERE IS MY INVITATION divisor
+YOU'RE FIRED quotient
+ENOUGH TALK
+GET TO THE CHOPPER remainder
+HERE IS MY INVITATION dividend
+GET DOWN product
+ENOUGH TALK
+I'LL BE BACK remainder
+HASTA LA VISTA, BABY
