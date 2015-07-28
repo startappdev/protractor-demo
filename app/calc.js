@@ -1,24 +1,25 @@
-var CalcCtrl = function($timeout, $scope) {
-  $scope.memory = [];
-  $scope.latest = 0;
-  $scope.operators = {
+var CalcCtrl = function($timeout) {
+  var calc = this;
+  calc.memory = [];
+  calc.latest = 0;
+  calc.operators = {
     ADDITION: '+',
     SUBTRACTION: '-',
     MULTIPLICATION: '*',
     DIVISION: '/',
     MODULO: '%'
   };
-  $scope.operator = $scope.operators.ADDITION;
+  calc.operator = calc.operators.ADDITION;
 
-  $scope.doAddition = function() {
+  calc.doAddition = function() {
     var times = 5;
-    $scope.latest = '. ';
+    calc.latest = '. ';
     $timeout(function tickslowly() {
       if (times == 0) {
         var latestResult;
-        var first = parseInt($scope.first);
-        var second = parseInt($scope.second);
-        switch ($scope.operator) {
+        var first = parseInt(calc.first);
+        var second = parseInt(calc.second);
+        switch (calc.operator) {
           case '+':
             latestResult = first + second;
             break;
@@ -35,17 +36,17 @@ var CalcCtrl = function($timeout, $scope) {
             latestResult = first % second;
             break;
         }
-        $scope.memory.unshift({
+        calc.memory.unshift({
           timestamp: new Date(),
-          first: $scope.first,
-          operator: $scope.operator,
-          second: $scope.second,
+          first: calc.first,
+          operator: calc.operator,
+          second: calc.second,
           value: latestResult
         });
-        $scope.first = $scope.second = '';
-        $scope.latest = latestResult;
+        calc.first = calc.second = '';
+        calc.latest = latestResult;
       } else {
-        $scope.latest += '. ';
+        calc.latest += '. ';
         times--;
         $timeout(tickslowly, 300);
       }
