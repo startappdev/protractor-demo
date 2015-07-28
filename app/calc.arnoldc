@@ -1,9 +1,3 @@
-IT'S SHOWTIME
-  GET YOUR ASS TO MARS calculator
-    DO IT NOW angular.module "calculator"
-
-  DO IT NOW calculator.controller "CalcCtrl" CalcCtrl
-YOU HAVE BEEN TERMINATED
 
 LISTEN TO ME VERY CAREFULLY doAddition
   TALK TO THE HAND "running calculator"
@@ -112,3 +106,10 @@ GET DOWN product
 ENOUGH TALK
 I'LL BE BACK remainder
 HASTA LA VISTA, BABY
+
+IT'S SHOWTIME
+  GET YOUR ASS TO MARS calculator
+    DO IT NOW angular.module "calculator"
+
+  DO IT NOW calculator.controller "CalcCtrl" CalcCtrl
+YOU HAVE BEEN TERMINATED

@@ -4,8 +4,8 @@ describe('slow calculator', function() {
   });
 
   it('should add numbers', function() {
-    element(by.model('first')).sendKeys(4);
-    element(by.model('second')).sendKeys(5);
+    element(by.model('calc.first')).sendKeys(4);
+    element(by.model('calc.second')).sendKeys(5);
 
     element(by.id('gobutton')).click();
 
@@ -16,8 +16,8 @@ describe('slow calculator', function() {
   describe('memory', function() {
     var first, second, goButton;
     beforeEach(function() {
-      first = element(by.model('first'));
-      second = element(by.model('second'));
+      first = element(by.model('calc.first'));
+      second = element(by.model('calc.second'));
       goButton = element(by.id('gobutton'));
     });
 
